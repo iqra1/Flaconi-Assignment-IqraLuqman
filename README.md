@@ -42,3 +42,8 @@ embedded into the reports
 - Right click on Cucumber RunItTest Class under runner Package
 - Then Run As Junit Test
 
+## Project Hierarchy View
+
+![Alt text](https://github.com/iqra1/Flaconi-Assignment-IqraLuqman/blob/main/Flaconi-Assignment-Project-Hierarchy.PNG)
+
+
