@@ -19,7 +19,6 @@ Solution includes following:
 
 Instructions to run the code:
 
-
 Method#1
 • Import the project as existing maven project
 • Right click on pom.xml file go to Run As
