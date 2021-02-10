@@ -10,6 +10,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import cucumber.api.Scenario;
@@ -18,10 +19,11 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-
+import io.restassured.RestAssured;
 import pageFactory.AddToCartParfum;
 import pageFactory.CartPriceValidation;
 import pageFactory.MainMenuLinks;
+
 
 public class PageStepDefs 
 {
@@ -32,7 +34,7 @@ public class PageStepDefs
 	String rootPath = System.getProperty("user.dir");
 	String chromeDriverPath = "\\driver\\chromedriver.exe";
 
-
+	// Add to Cart product validation 	
 	@Given("^browser is open$")
 	public void browser_is_open() throws Throwable {
 		String browserName = "google chrome";
@@ -40,7 +42,7 @@ public class PageStepDefs
 		System.setProperty("webdriver.chrome.driver", rootPath+chromeDriverPath);
 		webdriver = new ChromeDriver();
 		log.info("Browser is googleChrome");
-
+	
 	}
 
 	@When("^user go to the flaconi page$")
@@ -104,6 +106,7 @@ public class PageStepDefs
 
 	}
 
+	// Cart Price Validation
 	@And("^user validate that price is correct displaying on cart$")
 	public void user_validate_that_price_is_correct() throws Throwable {
 		AddToCartParfum addToCart=new AddToCartParfum(webdriver);
@@ -115,12 +118,15 @@ public class PageStepDefs
 		Assert.assertEquals(perfume_price,price_On_Cart);
 	}
 
-
+	// Main Menu Links Validation
 	@And("^user click on the BRANDS$")
 	public void user_click_on_the_BRANDS() throws Throwable {
 		waitForLoad(webdriver);
 		MainMenuLinks mainMenu=new MainMenuLinks(webdriver);
 		mainMenu.click_On_Brands();
+		int actualCode=getStatusCode();
+		Assert.assertEquals(actualCode, 200);
+
 
 	}
 
@@ -129,6 +135,8 @@ public class PageStepDefs
 		waitForLoad(webdriver);
 		MainMenuLinks mainMenu=new MainMenuLinks(webdriver);
 		mainMenu.click_On_Perfume();
+		int actualCode=getStatusCode();
+		Assert.assertEquals(actualCode, 200);
 
 	}
 
@@ -137,6 +145,8 @@ public class PageStepDefs
 		waitForLoad(webdriver);
 		MainMenuLinks mainMenu=new MainMenuLinks(webdriver);
 		mainMenu.click_On_Maintenance();
+		int actualCode=getStatusCode();
+		Assert.assertEquals(actualCode, 200);
 
 	}
 
@@ -145,6 +155,8 @@ public class PageStepDefs
 		waitForLoad(webdriver);
 		MainMenuLinks mainMenu=new MainMenuLinks(webdriver);
 		mainMenu.click_On_MakeUp();
+		int actualCode=getStatusCode();
+		Assert.assertEquals(actualCode, 200);
 
 	}
 
@@ -153,6 +165,8 @@ public class PageStepDefs
 		waitForLoad(webdriver);
 		MainMenuLinks mainMenu=new MainMenuLinks(webdriver);
 		mainMenu.click_On_Hair();
+		int actualCode=getStatusCode();
+		Assert.assertEquals(actualCode, 200);
 
 	}
 
@@ -161,6 +175,8 @@ public class PageStepDefs
 		waitForLoad(webdriver);
 		MainMenuLinks mainMenu=new MainMenuLinks(webdriver);
 		mainMenu.click_On_Nature();
+		int actualCode=getStatusCode();
+		Assert.assertEquals(actualCode, 200);
 
 	}
 
@@ -169,6 +185,8 @@ public class PageStepDefs
 		waitForLoad(webdriver);
 		MainMenuLinks mainMenu=new MainMenuLinks(webdriver);
 		mainMenu.click_On_Premium();
+		int actualCode=getStatusCode();
+		Assert.assertEquals(actualCode, 200);
 
 	}
 
@@ -177,6 +195,8 @@ public class PageStepDefs
 		waitForLoad(webdriver);
 		MainMenuLinks mainMenu=new MainMenuLinks(webdriver);
 		mainMenu.click_On_DrugStore();
+		int actualCode=getStatusCode();
+		Assert.assertEquals(actualCode, 200);
 
 	}
 
@@ -185,6 +205,8 @@ public class PageStepDefs
 		waitForLoad(webdriver);
 		MainMenuLinks mainMenu=new MainMenuLinks(webdriver);
 		mainMenu.click_On_Men();
+		int actualCode=getStatusCode();
+		Assert.assertEquals(actualCode, 200);
 
 	}
 
@@ -193,6 +215,8 @@ public class PageStepDefs
 		waitForLoad(webdriver);
 		MainMenuLinks mainMenu=new MainMenuLinks(webdriver);
 		mainMenu.click_On_New();
+		int actualCode=getStatusCode();
+		Assert.assertEquals(actualCode, 200);
 
 	}
 
@@ -201,6 +225,8 @@ public class PageStepDefs
 		waitForLoad(webdriver);
 		MainMenuLinks mainMenu=new MainMenuLinks(webdriver);
 		mainMenu.click_On_Sale();
+		int actualCode=getStatusCode();
+		Assert.assertEquals(actualCode, 200);
 
 	}
 
@@ -209,6 +235,8 @@ public class PageStepDefs
 		waitForLoad(webdriver);
 		MainMenuLinks mainMenu=new MainMenuLinks(webdriver);
 		mainMenu.click_On_Free();
+		int actualCode=getStatusCode();
+		Assert.assertEquals(actualCode, 200);
 
 	}
 
@@ -218,6 +246,17 @@ public class PageStepDefs
 		webdriver.quit();
 	}
 
+	//To get HTTP Status Code of current url	
+	public int getStatusCode() { 
+		String currentUrl=webdriver.getCurrentUrl();
+		log.info("Current URL of the Page: " + currentUrl);
+		int code=RestAssured.get(currentUrl).statusCode();
+		log.info("Status code of the page: "+ code);
+		return code;
+
+	}
+
+	//When Test fails
 	@After
 	public void tearDown(Scenario scenario) {
 		if (scenario.isFailed()) {

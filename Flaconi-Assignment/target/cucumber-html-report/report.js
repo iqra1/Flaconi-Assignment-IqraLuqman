@@ -64,60 +64,60 @@ formatter.match({
   "location": "PageStepDefs.browser_is_open()"
 });
 formatter.result({
-  "duration": 2281059400,
+  "duration": 2710737800,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_go_to_the_flaconi_page()"
 });
 formatter.result({
-  "duration": 4782817900,
+  "duration": 10215158300,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_the_perfume_category()"
 });
 formatter.result({
-  "duration": 131392200,
+  "duration": 106869600,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_the_perfume()"
 });
 formatter.result({
-  "duration": 5708950900,
+  "duration": 8662907900,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_redirected_to_the_perfume_detail_page()"
 });
 formatter.result({
-  "duration": 115995600,
+  "duration": 10375600,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_add_to_the_cart_button()"
 });
 formatter.result({
-  "duration": 460729800,
+  "duration": 160915300,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.perfume_added_to_the_cart()"
 });
 formatter.result({
-  "duration": 162254900,
+  "duration": 90990800,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_close_the_browser()"
 });
 formatter.result({
-  "duration": 981275600,
+  "duration": 979919500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 157300,
+  "duration": 116500,
   "status": "passed"
 });
 formatter.uri("src/test/resources/featureFiles/cartPriceValidation.feature");
@@ -191,67 +191,67 @@ formatter.match({
   "location": "PageStepDefs.browser_is_open()"
 });
 formatter.result({
-  "duration": 1182081300,
+  "duration": 1204920800,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_go_to_the_flaconi_page()"
 });
 formatter.result({
-  "duration": 3774100700,
+  "duration": 10859369800,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_the_perfume_category()"
 });
 formatter.result({
-  "duration": 102553700,
+  "duration": 99205300,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_the_perfume()"
 });
 formatter.result({
-  "duration": 4384670600,
+  "duration": 7507358300,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_redirected_to_the_perfume_detail_page()"
 });
 formatter.result({
-  "duration": 116759900,
+  "duration": 18937600,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_add_to_the_cart_button()"
 });
 formatter.result({
-  "duration": 438232400,
+  "duration": 171360200,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.perfume_added_to_the_cart()"
 });
 formatter.result({
-  "duration": 218552400,
+  "duration": 67036700,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_validate_that_price_is_correct()"
 });
 formatter.result({
-  "duration": 64517100,
+  "duration": 39705700,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_close_the_browser()"
 });
 formatter.result({
-  "duration": 819401500,
+  "duration": 836148200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 17500,
+  "duration": 42900,
   "status": "passed"
 });
 formatter.uri("src/test/resources/featureFiles/mainMenuLinks.feature");
@@ -355,109 +355,109 @@ formatter.match({
   "location": "PageStepDefs.browser_is_open()"
 });
 formatter.result({
-  "duration": 1202942600,
+  "duration": 1231223800,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_go_to_the_flaconi_page()"
 });
 formatter.result({
-  "duration": 4494572700,
+  "duration": 10226498900,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_the_BRANDS()"
 });
 formatter.result({
-  "duration": 113632700,
+  "duration": 3369130000,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_the_PERFUME()"
 });
 formatter.result({
-  "duration": 99609400,
+  "duration": 5798960300,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_the_MAINTAINANCE()"
 });
 formatter.result({
-  "duration": 109276600,
+  "duration": 4866155000,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_the_MAKE_UP()"
 });
 formatter.result({
-  "duration": 4089329800,
+  "duration": 3912477800,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_the_HAIR()"
 });
 formatter.result({
-  "duration": 2756312100,
+  "duration": 3488029700,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_the_NATURE()"
 });
 formatter.result({
-  "duration": 5409700200,
+  "duration": 6357540900,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_the_PREMIUM()"
 });
 formatter.result({
-  "duration": 5321483300,
+  "duration": 6619413600,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_the_DRUGSTORE()"
 });
 formatter.result({
-  "duration": 2970747000,
+  "duration": 4647036400,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_the_MEN()"
 });
 formatter.result({
-  "duration": 2197093500,
+  "duration": 6142310600,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_the_NEW()"
 });
 formatter.result({
-  "duration": 2354284300,
+  "duration": 4605936300,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_the_SALE()"
 });
 formatter.result({
-  "duration": 2618613000,
+  "duration": 4424921900,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_click_on_the_FREE()"
 });
 formatter.result({
-  "duration": 2051660600,
+  "duration": 3438025400,
   "status": "passed"
 });
 formatter.match({
   "location": "PageStepDefs.user_close_the_browser()"
 });
 formatter.result({
-  "duration": 913261000,
+  "duration": 859919700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 35600,
+  "duration": 46500,
   "status": "passed"
 });
 });
