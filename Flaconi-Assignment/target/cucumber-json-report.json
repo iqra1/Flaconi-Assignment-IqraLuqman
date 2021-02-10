@@ -1,0 +1,497 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Add to cart",
+        "description": "",
+        "id": "add-to-cart-a-random-product-from-parfum-category;add-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 157300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PageStepDefs.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2281059400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser is open",
+            "match": {
+              "location": "PageStepDefs.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4782817900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user go to the flaconi page",
+            "match": {
+              "location": "PageStepDefs.user_go_to_the_flaconi_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131392200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on the perfume category",
+            "match": {
+              "location": "PageStepDefs.user_click_on_the_perfume_category()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5708950900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on the perfume",
+            "match": {
+              "location": "PageStepDefs.user_click_on_the_perfume()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115995600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user redirected to the perfume detail page",
+            "match": {
+              "location": "PageStepDefs.user_redirected_to_the_perfume_detail_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 460729800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on add to cart button",
+            "match": {
+              "location": "PageStepDefs.user_click_on_add_to_the_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162254900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "perfume added to the cart successfully",
+            "match": {
+              "location": "PageStepDefs.perfume_added_to_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 981275600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user close the browser",
+            "match": {
+              "location": "PageStepDefs.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@addToCart"
+          }
+        ]
+      }
+    ],
+    "name": "Add to cart a random product from Parfum category",
+    "description": "",
+    "id": "add-to-cart-a-random-product-from-parfum-category",
+    "keyword": "Feature",
+    "uri": "src/test/resources/featureFiles/addToCartParfum.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Product price validation",
+        "description": "",
+        "id": "to-veirfy-the-correct-price-displayed-on-the-cart-page;product-price-validation",
+        "after": [
+          {
+            "result": {
+              "duration": 17500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PageStepDefs.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1182081300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser is open",
+            "match": {
+              "location": "PageStepDefs.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3774100700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user go to the flaconi page",
+            "match": {
+              "location": "PageStepDefs.user_go_to_the_flaconi_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102553700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on the perfume category",
+            "match": {
+              "location": "PageStepDefs.user_click_on_the_perfume_category()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4384670600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on the perfume",
+            "match": {
+              "location": "PageStepDefs.user_click_on_the_perfume()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116759900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user redirected to the perfume detail page",
+            "match": {
+              "location": "PageStepDefs.user_redirected_to_the_perfume_detail_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 438232400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on add to cart button",
+            "match": {
+              "location": "PageStepDefs.user_click_on_add_to_the_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 218552400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "perfume added to the cart successfully",
+            "match": {
+              "location": "PageStepDefs.perfume_added_to_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64517100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user validate that price is correct displaying on cart",
+            "match": {
+              "location": "PageStepDefs.user_validate_that_price_is_correct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 819401500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user close the browser",
+            "match": {
+              "location": "PageStepDefs.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@cartPriceValidation"
+          }
+        ]
+      }
+    ],
+    "name": "To veirfy the correct price displayed on the cart page",
+    "description": "",
+    "id": "to-veirfy-the-correct-price-displayed-on-the-cart-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/featureFiles/cartPriceValidation.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Menu links verification",
+        "description": "",
+        "id": "verify-the-main-navigation-menu-links;menu-links-verification",
+        "after": [
+          {
+            "result": {
+              "duration": 35600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PageStepDefs.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1202942600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser is open",
+            "match": {
+              "location": "PageStepDefs.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4494572700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user go to the flaconi page",
+            "match": {
+              "location": "PageStepDefs.user_go_to_the_flaconi_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113632700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on the BRANDS",
+            "match": {
+              "location": "PageStepDefs.user_click_on_the_BRANDS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99609400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on the PERFUME",
+            "match": {
+              "location": "PageStepDefs.user_click_on_the_PERFUME()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109276600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on the MAINTAINANCE",
+            "match": {
+              "location": "PageStepDefs.user_click_on_the_MAINTAINANCE()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4089329800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on the MAKE UP",
+            "match": {
+              "location": "PageStepDefs.user_click_on_the_MAKE_UP()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2756312100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on the HAIR",
+            "match": {
+              "location": "PageStepDefs.user_click_on_the_HAIR()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5409700200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on the NATURE",
+            "match": {
+              "location": "PageStepDefs.user_click_on_the_NATURE()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5321483300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click on the PREMIUM",
+            "match": {
+              "location": "PageStepDefs.user_click_on_the_PREMIUM()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2970747000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on the DRUGSTORE",
+            "match": {
+              "location": "PageStepDefs.user_click_on_the_DRUGSTORE()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2197093500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on the MEN",
+            "match": {
+              "location": "PageStepDefs.user_click_on_the_MEN()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2354284300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click on the NEW",
+            "match": {
+              "location": "PageStepDefs.user_click_on_the_NEW()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2618613000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click on the SALE",
+            "match": {
+              "location": "PageStepDefs.user_click_on_the_SALE()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2051660600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click on the FREE",
+            "match": {
+              "location": "PageStepDefs.user_click_on_the_FREE()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 913261000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user close the browser",
+            "match": {
+              "location": "PageStepDefs.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@menuLinksVerification"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the main navigation menu links",
+    "description": "",
+    "id": "verify-the-main-navigation-menu-links",
+    "keyword": "Feature",
+    "uri": "src/test/resources/featureFiles/mainMenuLinks.feature"
+  }
+]
