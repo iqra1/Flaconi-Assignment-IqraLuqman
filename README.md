@@ -10,12 +10,12 @@ URL: https://www.flaconi.de/
 
 Solution includes following:
 
-• Language: Java
-• Framework: Cucumber framework (BDD)
-• Web Driver: Selenium
-• Build Automation Tool: Maven
-• For logging, log4j tool is used with cucumber framework by just adding its dependency in pom.xml
-• Design Approach: PageFactory
+- Language: Java
+- Framework: Cucumber framework (BDD)
+- Web Driver: Selenium
+- Build Automation Tool: Maven
+- For logging, log4j tool is used with cucumber framework by just adding its dependency in pom.xml
+- Design Approach: PageFactory
 
 Instructions to run the code:
 
