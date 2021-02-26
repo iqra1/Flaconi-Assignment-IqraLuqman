@@ -1,6 +1,6 @@
 # Flaconi-Assignment-IqraLuqman
 
-## Test Automation Tasks:
+## Test Automation Task - Java:
 I have covered following test scenarios:
 1. add to cart a random product from Parfum category
 2. on the Cart page to verify if we are displaying the correct price
@@ -46,4 +46,7 @@ embedded into the reports
 
 ![Alt text](https://github.com/iqra1/Flaconi-Assignment-IqraLuqman/blob/main/Flaconi-Assignment-Project-Hierarchy.PNG)
 
+## Test Automation Task - Python:
+I have used Python language to write the automation scripts of this assignment as requested. I have used Pytest framework and Page object model approach
+ - Folder name: pythonProject -> FlaconiAssignment - Python
 
