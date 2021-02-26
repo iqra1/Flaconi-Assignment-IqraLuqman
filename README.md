@@ -1,5 +1,9 @@
 # Flaconi-Assignment-IqraLuqman
 
+## Test Automation Task - Python:
+I have used Python language to write the automation scripts of this assignment as requested. I have used Pytest framework and Page object model approach
+ - Folder name: pythonProject -> FlaconiAssignment - Python
+
 ## Test Automation Task - Java:
 I have covered following test scenarios:
 1. add to cart a random product from Parfum category
@@ -45,8 +49,4 @@ embedded into the reports
 ## Project Hierarchy View
 
 ![Alt text](https://github.com/iqra1/Flaconi-Assignment-IqraLuqman/blob/main/Flaconi-Assignment-Project-Hierarchy.PNG)
-
-## Test Automation Task - Python:
-I have used Python language to write the automation scripts of this assignment as requested. I have used Pytest framework and Page object model approach
- - Folder name: pythonProject -> FlaconiAssignment - Python
 
